@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+html {
+    font-size: 62.5%;
+    color: var(--white-color);
+    scroll-behavior: smooth;
+}
+
+body {
+    background: no-repeat center url(../img/samurai.jpg) var(--dark-gray-background-color);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--primary-font);
+    font-size: var(font-normal);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    text-shadow: var(--primary-color);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.aling-itens-center {
+    align-items: center;
+}
+
+.networks a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: var(--font-extra-large);
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-shadow: 3px 3px 5px var(--primary-color);
+}
+
+.networks a:hover {
+    color: var(--primary-color)
+}
+
+.networks a i {
+    line-height: 40px;
+}
+
+.outer-shadow {
+    box-shadow: 3px 3px 10px #22232759, -3px -3px 10px #454545bb;
+}
+
+.inner-shadow {
+    box-shadow: inset 3px 3px 10px #22232759,
+    inset -3px -3px 10px #454545bb;
+}
+
+.section {
+    padding: 7rem 0 7rem;
+}
+
+.section-title{
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 60px 0;
+}
+
+.section-title h2 {
+    font-size: var(--font-giant);
+    text-shadow: 2px 2px 8px var(--primary-color);
+}
+
+.buton {
+    font-size: var(--font-giant);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: var(--primary-color);
+}
+
+.buton:hover {
+    background-color: var(--secundary-color);
+}

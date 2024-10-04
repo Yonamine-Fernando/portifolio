@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 7rem;
+    text-align: center;
+    background-color: var(--ligth-gray-backgound-color);
+}
+
+.footer .container {
+    padding: 5rem 0;
+}
+
+.footer h2 {
+    font-family: var(--secundary-font);
+    font-size: var(--font-normal);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}

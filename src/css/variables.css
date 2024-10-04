@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #B22222;
+    --secundary-color: #008080;
+    --white-color: #fff;
+    --dark-gray-background-color:#282828;
+    --ligth-gray-backgound-color:#353535;
+}
+
+:root {
+    --primary-font: "Almendra", serif;
+    --secundary-font: 'Raleway', sans-serif;
+    --font-giant: 4.5rem;
+    --font-extra-large: 3rem;
+    --font-large: 2.4rem;
+    --font-normal: 1.6rem;
+}
+
+:root {
+    --mobile-padding: 30px;
+}
