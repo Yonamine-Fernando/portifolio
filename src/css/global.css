@@ -3,23 +3,33 @@
 
 html {
     font-size: 62.5%;
-    color: var(--white-color);
     scroll-behavior: smooth;
+    text-shadow: 2px 2px 8px var(--white-color);
 }
 
 body {
+    font-family: var(--primary-font);
+    font-size: var(font-normal);
+    position: relative;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.4;
     background: no-repeat center url(../img/samurai.jpg) var(--dark-gray-background-color);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    font-family: var(--primary-font);
-    font-size: var(font-normal);
 }
 
+
+
 .container {
-    max-width: 1140px;
+    max-width: 1920px;
     margin: auto;
-    text-shadow: var(--primary-color);
 }
 
 .row {
@@ -31,7 +41,7 @@ body {
     justify-content: space-between;
 }
 
-.aling-itens-center {
+.align-items-center {
     align-items: center;
 }
 
@@ -77,8 +87,8 @@ body {
 
 .section-title h2 {
     font-size: var(--font-giant);
-    text-shadow: 2px 2px 8px var(--primary-color);
 }
+
 
 .buton {
     font-size: var(--font-giant);
@@ -90,4 +100,12 @@ body {
 
 .buton:hover {
     background-color: var(--secundary-color);
+}
+
+button {
+    font-family: var(--primary-font);
+}
+
+.hidden {
+    display: none;
 }

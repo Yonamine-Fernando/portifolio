@@ -1,6 +1,6 @@
 .projects .container-projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, minmax(10px, 1fr));
     margin: 0 auto;
     grid-gap: 20px
 }
@@ -34,3 +34,36 @@
     border-top-right-radius: 4px;
 }
 
+.projects .container-projects .project .project-information p:nth-child(2) {
+    font-weight: 300;
+    margin-top: 10px;
+    font-style: 1.5rem;
+    color: #f2e573
+}
+
+.projects .container-projects .project h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    opacity: 0.7;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    bottom: 0;
+    text-align: center;
+}
+
+.projects .show-more-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media(max-width: 2650px) {
+    .projects .container-projects {
+        padding: 0 var(--mobile-padding);
+        justify-content: center;
+    }
+}
