@@ -9,15 +9,14 @@
     letter-spacing: 10px;
     text-align: center;
     text-decoration: underline;
-    transition: 0.2;
+    transition: 0.2s;
     color: #070000a1;
     font-size: var(--font-giant);
-    text-transform: uppercase;
 }
 
 .header a:hover .logo {
     color: var(--primary-color);
-    text-shadow: rgb(0, 0, 0) 5px 5px;
+    text-shadow: 3px 3px 5px var(--gray-color);
 }
 
 .header nav ul {
