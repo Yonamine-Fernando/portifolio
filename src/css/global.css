@@ -1,0 +1,45 @@
+@import "./variables.css";
+
+body {
+    background: radial-gradient(ellipse at bottom, #656d8e 0%, #000000 100%);
+    color:var(--text);
+    font-family: var(--font-main);
+    overflow-x: hidden;
+}
+
+header, section{
+    padding: 50px 20px 30px;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: var(--font-title);
+    font-size: 40px;
+}
+
+span{
+    color: var(--accent);
+}
+
+section {
+    padding: 24px 32px;
+}
+
+footer h2{
+    padding: 50px 20px 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+canvas#stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
