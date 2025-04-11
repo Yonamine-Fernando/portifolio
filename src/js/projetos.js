@@ -13,8 +13,8 @@ export const projects = [
     },
     {
         titulo: "Form React",
-        descricao: "Formulário interativo construído com React, praticando uso do 'react-hook-form' Ideal para treinar lógica de formulários e erros em React",
-        link:"https://yonamine-fernando.github.io/form-react/",
+        descricao: "Formulário interativo construído com HTML, CSS e JS. Ideal para treinar lógica de formulários.",
+        link:"https://yonamine-fernando.github.io/quest-html-css-js-intermediario-formulario/",
         imagem:"src/img/react-form-bg.png"
     },
     {
