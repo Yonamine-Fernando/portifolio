@@ -7,7 +7,7 @@ export const projects = [
     },
     {
         titulo: "Cards Guerreiros Elementais",
-        descricao: "Porjeto feito com base nos apredizados do curso 'Dev em Dobro' com React e manipulação do DOM",
+        descricao: "Projeto feito com base nos apredizados do curso 'Dev em Dobro' com React e manipulação do DOM",
         link:"https://yonamine-fernando.github.io/cards-guerreiros-elementais/",
         imagem:"src/img/card-guerriros-bg.png"
     },
@@ -25,7 +25,7 @@ export const projects = [
     },
     {
         titulo:"movieflix",
-        descricao:"Projeto desenvoldo no curso 'Dev Quest' de API RESTful desenvolvida com Node.js, Express e Prisma ORM, conectada a um banco de dados relacional. O objetivo é gerenciar um catálogo de filmes, permitindo CRUD completo de filmes e gêneros, além de filtrar filmes por gênero e exibir estatísticas, como total de filmes e média de duração. Também integrei a documentação Swagger para facilitar a visualização e o teste dos endpoints.",
+        descricao:"Projeto desenvolvido no curso 'Dev Quest' de API RESTful desenvolvida com Node.js, Express e Prisma ORM, conectada a um banco de dados relacional. O objetivo é gerenciar um catálogo de filmes, permitindo CRUD completo de filmes e gêneros, além de filtrar filmes por gênero e exibir estatísticas, como total de filmes e média de duração. Também integrei a documentação Swagger para facilitar a visualização e o teste dos endpoints.",
         link:"https://github.com/Yonamine-Fernando/movieflix",
         imagem:"src/img/moveflix-bg.png"
     },
